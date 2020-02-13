@@ -26,6 +26,8 @@ const createArr = (A, B) =>
       return [...acc, it];
     }
   }, []);
+
+  // for HTML form:
 console.log(createArr(arrA, arrB));
 const resultDiv = document.getElementById("result1");
 resultDiv.innerText = JSON.stringify(createArr(arrA, arrB));
