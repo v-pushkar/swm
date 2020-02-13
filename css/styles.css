@@ -1,0 +1,10 @@
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+.box {
+    padding: 10px;
+    border-bottom: 3px #777777;
+}
